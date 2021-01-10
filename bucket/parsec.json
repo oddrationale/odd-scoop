@@ -1,0 +1,21 @@
+{
+    "version": "150-61",
+    "description": "Low-latency remote desktop",
+    "homepage": "https://parsec.app",
+    "license": "Freeware",
+    "url": "https://builds.parsecgaming.com/package/parsec-flat-windows32.zip",
+    "hash": "276b833f0cd9e5c5f703831024a5f96d577bbae539bdfb57e44de171aa0b2846",
+    "bin": "parsecd.exe",
+    "shortcuts": [
+        [
+            "parsecd.exe",
+            "Parsec"
+        ]
+    ],
+    "persist": [
+        "appdata.json"
+    ],
+    "autoupdate": {
+        "url": "https://builds.parsecgaming.com/package/parsec-flat-windows32.zip"
+    }
+}
